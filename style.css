@@ -5,17 +5,17 @@
 
 .hero-photo {
   width: 100%;
-  max-width: 380px;
+  max-width: 300px;
+  justify-self: center;
   margin: 0 auto;
 }
 
 .hero-photo img {
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 5;
+  height: 380px;
   object-fit: cover;
-  object-position: center;
+  object-position: center 25%;
   border-radius: 8px;
 }
 
@@ -26,4 +26,30 @@
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: -0.02em;
+}
+
+/* Improve homepage layout */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 60px;
+}
+
+.hero {
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero {
+    padding: 60px 0;
+  }
 }
