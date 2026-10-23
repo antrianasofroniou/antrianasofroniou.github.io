@@ -1,58 +1,810 @@
+
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Antriana Sofroniou — research experience in molecular biology, biophysics, biomechanics, and biomedical data.">
+
+  <meta name="description"
+    content="Antriana Sofroniou — Master's student in Biology and Health at École Polytechnique, with research experience in molecular biology, biochemistry, biomechanics, bioinformatics and biophysics.">
+
   <meta name="theme-color" content="#102b31">
-  <title>Antriana Sofroniou | Research & Biophysics</title>
+
+  <title>Antriana Sofroniou | Academic & Research Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
+
   <a class="skip" href="#main">Skip to main content</a>
+
+  <!-- NAVIGATION -->
+
   <header class="site-header">
     <nav class="nav wrap" aria-label="Main navigation">
-      <a href="#top" class="brand">AS<span class="brand-dot">.</span></a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+
+      <a href="#top" class="brand">
+        AS<span class="brand-dot">.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Toggle menu">
+        ☰
+      </button>
+
       <div class="nav-links" id="nav-links">
-        <a href="#about">About</a><a href="#experience">Research</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact" class="nav-contact">Contact ↗</a>
+        <a href="#about">About</a>
+        <a href="#experience">Research</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-contact">Contact ↗</a>
       </div>
+
     </nav>
   </header>
+
   <main id="main">
+
+    <!-- HERO -->
+
     <section class="hero" id="top">
       <div class="wrap hero-grid">
+
         <div>
-          <p class="eyebrow"><span class="signal"></span> SCIENCE · RESEARCH · CURIOSITY</p>
+
+          <p class="eyebrow">
+            <span class="signal"></span>
+            SCIENCE · RESEARCH · BIOENGINEERING
+          </p>
+
           <h1>Antriana Sofroniou</h1>
-          <p class="hero-lead">Exploring the intersection of <strong>biology, physics, and mathematics</strong> — from molecular mechanisms to the mechanics of living systems.</p>
-          <div class="actions"><a class="btn btn-primary" href="#experience">Explore my research <span>↗</span></a><a class="btn btn-secondary" href="cv.pdf" download>Download CV ↓</a></div>
-          <p class="location">⌁ Palaiseau, France · Nicosia, Cyprus</p>
+
+          <p class="hero-lead">
+            Master's student in <strong>Biology and Health</strong>
+            at École Polytechnique, with an academic background
+            in Mathematics, Physics and Biology.
+          </p>
+
+          <div class="actions">
+
+            <a class="btn btn-primary" href="#experience">
+              Explore my research <span>↗</span>
+            </a>
+
+            <a class="btn btn-secondary" href="cv.pdf" download>
+              Download CV ↓
+            </a>
+
+          </div>
+
+          <p class="location">
+            ⌁ Palaiseau, France · Nicosia, Cyprus
+          </p>
+
+          <p class="location">
+            <a href="mailto:antriana.sofroniou@polytechnique.edu">
+              antriana.sofroniou@polytechnique.edu
+            </a>
+          </p>
+
         </div>
+
+        <!-- PROFILE PHOTOGRAPH -->
+
         <div class="hero-photo">
           <img
             src="images/profile.jpg"
-            alt="Portrait of Antriana Sofroniou"
-          >
+            alt="Portrait of Antriana Sofroniou">
         </div>
+
       </div>
     </section>
-    <section class="section intro-section" id="about"><div class="wrap two-col"><div><p class="eyebrow dark">01 / ABOUT</p><h2>Driven by<br><em>questions.</em></h2></div><div class="intro-copy"><p>My background combines a double major in <strong>Mathematics and Physics</strong> with a minor in <strong>Biology</strong> at École Polytechnique.</p><p>My research experience spans cryo-electron microscopy, protein biophysics, collagen hydrogel mechanics, and biomedical data standardisation. I enjoy bringing quantitative thinking into experimental biology.</p><div class="tags"><span>Biophysics</span><span>Molecular biology</span><span>Biomechanics</span><span>Biomedical data</span></div></div></div></section>
-    <section class="section section-tinted" id="experience"><div class="wrap"><div class="section-heading"><div><p class="eyebrow dark">02 / EXPERIENCE</p><h2>Research <em>& projects</em></h2></div><p class="heading-note">From wet-lab experiments to computational and biomedical data research.</p></div>
-      <div class="experience-grid">
-        <article class="project card-feature"><div class="project-meta"><span>2026 · JUL–AUG</span><span class="type">Biomedical data</span></div><h3>Ontology Mapping & Data Processing of the ITHANET Database</h3><p class="institution">Cyprus Institute of Neurology & Genetics (CING)</p><p>FAIRification and processing of thalassaemia-related data through ontology mapping, standardisation, and validation of genetic variants. Worked with R, Python, Ontotext Refine, and SNOMED CT, NCIT, MONDO, and HPO ontologies.</p><p class="supervisor">Supervised by Dr. Petros Kountouris, Dr. Coralia Stephanou & Maria Xenophontos.</p></article>
-        <article class="project"><div class="project-meta"><span>2025 · SEP–DEC</span><span class="type">Biomechanics</span></div><h3>Collagen Hydrogel Stiffness</h3><p class="institution">LMS · École Polytechnique</p><p>Prepared collagen hydrogels at different concentrations to quantitatively assess their stiffness under varying polymerisation conditions.</p><p class="supervisor">Supervisor: Prof. Jean-Marc Allain.</p></article>
-        <article class="project"><div class="project-meta"><span>2025 · JUN–JUL</span><span class="type">Structural biology</span></div><h3>Cryo-Electron Microscopy</h3><p class="institution">BIOC · École Polytechnique</p><p>Protein production, ribosomal-complex reconstitution, and cryo-EM sample preparation and analysis using ChimeraX, Coot, and CryoSPARC.</p><p class="supervisor">Supervisor: Prof. Clément Madru.</p></article>
-        <article class="project"><div class="project-meta"><span>2024 · JUL–AUG</span><span class="type">Computational biophysics</span></div><h3>Protein Design & Molecular Modelling</h3><p class="institution">University of Cyprus</p><p>Explored increasing AnkB–GABARAP binding affinity with Monte Carlo methods using Proteus, with molecular visualisation in VMD.</p><p class="supervisor">Supervisors: Prof. Georgios Archontis & Prof. Savvas Polydoridis.</p></article>
-        <article class="project"><div class="project-meta"><span>2025 · DEC</span><span class="type">Bachelor thesis</span></div><h3>Function of the uS2 Protein</h3><p class="institution">BIOC · École Polytechnique</p><p>Investigated the role of uS2 in translation initiation and its binding to the 30S ribosomal subunit. Applied site-directed mutagenesis, DNA amplification and purification, protein expression and purification, and fluorescence anisotropy.</p><p class="supervisor">Supervised by Prof. Emmanuelle Schmitt, Prof. Clément Madru & Valentina Varriale.</p></article>
-        <article class="project"><div class="project-meta"><span>2025 · SEP–NOV</span><span class="type">Science communication</span></div><h3>Mathematical Crochet</h3><p class="institution">École Polytechnique</p><p>Created crocheted mathematical objects that were presented at a Bachelor event, connecting mathematics with hands-on visualisation.</p></article>
+
+
+    <!-- ABOUT / RESEARCH INTERESTS -->
+
+    <section class="section intro-section" id="about">
+
+      <div class="wrap two-col">
+
+        <div>
+          <p class="eyebrow dark">01 / ABOUT</p>
+
+          <h2>
+            Research<br>
+            <em>interests.</em>
+          </h2>
+        </div>
+
+        <div class="intro-copy">
+
+          <p>
+            I am currently pursuing a Master's degree in
+            <strong>Biology and Health</strong> at École Polytechnique,
+            following a Bachelor of Science with a double major
+            in Mathematics and Physics and a minor in Biology.
+          </p>
+
+          <p>
+            My academic interests cover a broad range of biological
+            and interdisciplinary fields, particularly
+            <strong>molecular biology and biochemistry,
+            biomechanics, and bioinformatics</strong>.
+          </p>
+
+          <p>
+            Through research projects involving protein biophysics,
+            structural biology, collagen hydrogels, and biomedical
+            data processing, I have gained experience in both
+            experimental and computational approaches.
+            I am particularly interested in experimental research
+            and the application of quantitative methods
+            to biological questions.
+          </p>
+
+          <div class="tags">
+            <span>Molecular biology</span>
+            <span>Biochemistry</span>
+            <span>Biomechanics</span>
+            <span>Bioinformatics</span>
+            <span>Biophysics</span>
+          </div>
+
+        </div>
+
       </div>
-    </div></section>
-    <section class="section" id="education"><div class="wrap"><p class="eyebrow dark">03 / EDUCATION</p><h2>The <em>foundation.</em></h2><div class="timeline"><article class="timeline-item"><div class="date">2023 — 2026</div><div><h3>Bachelor of Science</h3><p class="institution">École Polytechnique · Palaiseau, France</p><p>Double major in Mathematics and Physics, minor in Biology. Grade average: 13.31/20.</p><p class="small">Activities: President of KnittiX; RockX performances; mathematical crochet project; student mathematics seminars; Quadrille des Lanciers at the 133rd Bal de l’X.</p></div></article><article class="timeline-item"><div class="date">2020 — 2023</div><div><h3>Apolytirion — High School Diploma</h3><p class="institution">Lykeio Kykkou A · Nicosia, Cyprus</p><p>Grade: 19.56/20 · Mathematics, Physics, Biology, Chemistry, Greek.</p></div></article></div></div></section>
-    <section class="section section-dark" id="skills"><div class="wrap"><p class="eyebrow">04 / SKILLS & INTERESTS</p><h2>Tools for <em>discovery.</em></h2><div class="skills-grid"><div><h3>Research & software</h3><p>R · Python · ChimeraX · Coot · CryoSPARC · VMD · Proteus · SciDAVis · Ontotext Refine · LaTeX · Microsoft Office</p></div><div><h3>Languages</h3><p>Greek — Native<br>English — C1 (IELTS 7.5)<br>French — B2 (TCF 400)<br>Spanish — A2</p></div><div><h3>Beyond the lab</h3><p>Piano (ABRSM Grade 8, Distinction) · Ballet (RAD Grade 5, Merit) · Dance · Crochet · Knitting · Sewing · Climbing · Swimming</p></div><div><h3>Recognition & exploration</h3><p>Pancyprian Mathematical Contest and Biology Olympiad participant · CERN Physics MasterClass at the University of Cyprus (2023), using CMS proton–proton collision data.</p></div></div></div></section>
-    <section class="section contact-section" id="contact"><div class="wrap contact-wrap"><p class="eyebrow dark">05 / CONTACT</p><h2>Let’s make<br><em>something meaningful.</em></h2><p>I’m always interested in scientific conversations and research collaborations.</p><a class="btn btn-primary" href="mailto:antriana.sofroniou@polytechnique.edu">Get in touch ↗</a><div class="contact-details"><a href="mailto:antriana.sofroniou@polytechnique.edu">antriana.sofroniou@polytechnique.edu</a><a href="mailto:andrianasofroniou123@gmail.com">Personal email ↗</a><a href="tel:+33744404111">+33 (0) 7 44 40 41 11</a></div></div></section>
+    </section>
+
+
+    <!-- RESEARCH EXPERIENCE -->
+
+    <section class="section section-tinted" id="experience">
+
+      <div class="wrap">
+
+        <div class="section-heading">
+
+          <div>
+            <p class="eyebrow dark">02 / EXPERIENCE</p>
+
+            <h2>
+              Research <em>& projects</em>
+            </h2>
+          </div>
+
+          <p class="heading-note">
+            Academic research experience spanning experimental
+            molecular biology, structural biology, biomechanics,
+            computational biophysics, and biomedical data science.
+          </p>
+
+        </div>
+
+
+        <div class="experience-grid">
+
+          <!-- PROJECT 1: CING -->
+
+          <article class="project card-feature">
+
+            <div class="project-meta">
+              <span>2026 · JUL–AUG</span>
+              <span class="type">Bioinformatics</span>
+            </div>
+
+            <h3>
+              Ontology Mapping and Data Processing
+              of the ITHANET Database
+            </h3>
+
+            <p class="institution">
+              Cyprus Institute of Neurology & Genetics (CING)
+            </p>
+
+            <p>
+              Research internship at the Blood Disorder Genetics
+              and Thalassaemia Department, focusing on the
+              standardisation, interoperability, and processing
+              of biomedical and genetic variant data.
+            </p>
+
+            <p>
+              The first part of the project involved mapping
+              terminology from the ITHANET databases to
+              established biomedical ontologies, contributing
+              to the FAIRification of the data.
+              Ontologies included SNOMED CT, NCIT, MONDO,
+              and the Human Phenotype Ontology (HPO).
+            </p>
+
+            <p>
+              The second part focused on improving an existing
+              R Markdown pipeline for processing IthaGenes
+              genetic variant data for submission to ClinVar.
+              Modifications included retaining potentially
+              relevant variants, preserving dated export results,
+              and comparing successive datasets to identify
+              changes requiring verification.
+            </p>
+
+            <p>
+              <strong>Methods and tools:</strong>
+              R, Python, R Markdown, Ontotext Refine,
+              ontology mapping, biomedical data standardisation,
+              and genetic variant validation.
+            </p>
+
+            <p class="supervisor">
+              Supervised by Dr. Petros Kountouris,
+              Dr. Coralia Stephanou and Maria Xenophontos.
+            </p>
+
+          </article>
+
+
+          <!-- PROJECT 2: COLLAGEN HYDROGELS -->
+
+          <article class="project">
+
+            <div class="project-meta">
+              <span>2025 · SEP–DEC</span>
+              <span class="type">Biomechanics</span>
+            </div>
+
+            <h3>
+              Quantitative Assessment of Collagen
+              Hydrogel Stiffness
+            </h3>
+
+            <p class="institution">
+              Laboratory of Solid Mechanics (LMS) · École Polytechnique
+            </p>
+
+            <p>
+              Experimental project investigating the mechanical
+              properties of collagen hydrogels prepared under
+              different polymerisation conditions.
+            </p>
+
+            <p>
+              Collagen gels were prepared at different
+              concentrations to investigate the influence
+              of gel composition and preparation conditions
+              on stiffness.
+            </p>
+
+            <p>
+              The project introduced experimental approaches
+              to soft biomaterials, mechanical characterisation,
+              and the relationship between material structure
+              and mechanical behaviour.
+            </p>
+
+            <p>
+              <strong>Research areas:</strong>
+              Collagen hydrogels, soft biomaterials,
+              experimental mechanics, and stiffness measurements.
+            </p>
+
+            <p class="supervisor">
+              Supervisor: Prof. Jean-Marc Allain.
+            </p>
+
+          </article>
+
+
+          <!-- PROJECT 3: CRYO-EM -->
+
+          <article class="project">
+
+            <div class="project-meta">
+              <span>2025 · JUN–JUL</span>
+              <span class="type">Structural biology</span>
+            </div>
+
+            <h3>
+              Cryo-Electron Microscopy and
+              Ribosomal Complexes
+            </h3>
+
+            <p class="institution">
+              BIOC · École Polytechnique
+            </p>
+
+            <p>
+              Research internship involving structural
+              biology approaches to investigate ribosomal
+              complexes and proteins involved in
+              translation regulation.
+            </p>
+
+            <p>
+              Experimental work included protein production
+              and purification, in vitro reconstitution of
+              ribosomal complexes, and preparation of samples
+              for cryo-electron microscopy.
+            </p>
+
+            <p>
+              The project also provided experience with
+              cryo-EM data collection and processing,
+              molecular visualisation, and interpretation
+              of structural data.
+            </p>
+
+            <p>
+              <strong>Methods and tools:</strong>
+              Protein purification, ribosomal complex
+              reconstitution, cryo-EM sample preparation,
+              CryoSPARC, ChimeraX, and Coot.
+            </p>
+
+            <p class="supervisor">
+              Supervised by Prof. Clément Madru.
+            </p>
+
+          </article>
+
+
+          <!-- PROJECT 4: PROTEIN DESIGN -->
+
+          <article class="project">
+
+            <div class="project-meta">
+              <span>2024 · JUL–AUG</span>
+              <span class="type">Computational biophysics</span>
+            </div>
+
+            <h3>
+              Protein Design and Molecular Modelling
+            </h3>
+
+            <p class="institution">
+              University of Cyprus
+            </p>
+
+            <p>
+              Computational biophysics research project
+              focused on modifying protein interactions
+              through computational protein design.
+            </p>
+
+            <p>
+              The objective was to investigate potential
+              improvements in the binding affinity between
+              AnkB and GABARAP by exploring amino acid
+              modifications using Monte Carlo methods
+              implemented in the Proteus software.
+            </p>
+
+            <p>
+              Molecular structures and interactions
+              were visualised using Visual Molecular
+              Dynamics (VMD).
+            </p>
+
+            <p>
+              <strong>Methods and tools:</strong>
+              Computational protein design,
+              Monte Carlo methods, Proteus,
+              molecular modelling, and VMD.
+            </p>
+
+            <p class="supervisor">
+              Supervised by Prof. Georgios Archontis
+              and Prof. Savvas Polydoridis.
+            </p>
+
+          </article>
+
+
+          <!-- PROJECT 5: BACHELOR THESIS -->
+
+          <article class="project">
+
+            <div class="project-meta">
+              <span>2025–2026</span>
+              <span class="type">Bachelor thesis</span>
+            </div>
+
+            <h3>
+              Study of the Function of the uS2 Protein
+              in Translation Initiation
+            </h3>
+
+            <p class="institution">
+              BIOC · École Polytechnique
+            </p>
+
+            <p>
+              Bachelor research thesis investigating
+              the role of the uS2 ribosomal protein
+              in the stability of translation
+              initiation complexes.
+            </p>
+
+            <p>
+              The project aimed to investigate the interaction
+              between uS2 and the 30S ribosomal subunit,
+              particularly through the determination
+              of a dissociation constant.
+            </p>
+
+            <p>
+              Experimental work involved site-directed
+              mutagenesis, DNA amplification and
+              purification, protein expression
+              and purification, and fluorescence
+              anisotropy measurements.
+            </p>
+
+            <p>
+              The study explored the effects of selected
+              protein mutations on ribosomal interactions,
+              providing experience in experimental design,
+              troubleshooting, and quantitative
+              biochemical analysis.
+            </p>
+
+            <p>
+              <strong>Methods and tools:</strong>
+              Site-directed mutagenesis, PCR,
+              DNA purification, protein purification,
+              and fluorescence anisotropy.
+            </p>
+
+            <p class="supervisor">
+              Supervised by Prof. Emmanuelle Schmitt,
+              Prof. Clément Madru and
+              PhD student Valentina Varriale.
+            </p>
+
+          </article>
+
+
+          <!-- PROJECT 6: MATHEMATICAL CROCHET -->
+
+          <article class="project">
+
+            <div class="project-meta">
+              <span>2025 · SEP–NOV</span>
+              <span class="type">Mathematics & communication</span>
+            </div>
+
+            <h3>
+              Mathematical Crochet Project
+            </h3>
+
+            <p class="institution">
+              École Polytechnique
+            </p>
+
+            <p>
+              Interdisciplinary project exploring the
+              physical representation of mathematical
+              objects through textile techniques.
+            </p>
+
+            <p>
+              Created crocheted mathematical surfaces
+              and geometric structures, including work
+              on the representation of Boy's surface.
+            </p>
+
+            <p>
+              The creations were presented during
+              a Bachelor event, demonstrating how
+              hands-on visualisation can communicate
+              mathematical concepts.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section class="section" id="education">
+
+      <div class="wrap">
+
+        <p class="eyebrow dark">03 / EDUCATION</p>
+
+        <h2>
+          <em>Studies.</em>
+        </h2>
+
+        <div class="timeline">
+
+          <!-- CURRENT MASTER'S -->
+
+          <article class="timeline-item">
+
+            <div class="date">
+              2026 — Present
+            </div>
+
+            <div>
+
+              <h3>
+                PhD Track — Bioengineering and
+                Quantitative Life Sciences
+              </h3>
+
+              <p class="institution">
+                Institut Polytechnique de Paris ·
+                École Polytechnique · Palaiseau, France
+              </p>
+
+              <p>
+                <strong>
+                  Current stage: Master 1 — Biology and Health
+                </strong>
+              </p>
+
+              <p>
+                Currently pursuing the first year of
+                Master's studies in Biology and Health,
+                within the Bioengineering and Quantitative
+                Life Sciences academic pathway.
+              </p>
+
+              <p>
+                Coursework includes neuroscience,
+                genomes and human health,
+                immunology and infectious diseases,
+                with interests in molecular biology,
+                biochemistry, and experimental bioengineering.
+              </p>
+
+              <p class="small">
+                Status: Ongoing — Master 1
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- BACHELOR -->
+
+          <article class="timeline-item">
+
+            <div class="date">
+              2023 — 2026
+            </div>
+
+            <div>
+
+              <h3>Bachelor of Science</h3>
+
+              <p class="institution">
+                École Polytechnique · Palaiseau, France
+              </p>
+
+              <p>
+                Double major in Mathematics and Physics,
+                with a minor in Biology.
+              </p>
+
+              <p>
+                Grade average: 13.31/20.
+              </p>
+
+              <p class="small">
+                Academic activities included mathematical
+                seminars and an interdisciplinary
+                mathematical crochet project.
+              </p>
+
+              <p class="small">
+                Extracurricular activities:
+                President of KnittiX, participation
+                in RockX performances, and
+                performance of the Quadrille des Lanciers
+                at the 133rd Bal de l'X.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- HIGH SCHOOL -->
+
+          <article class="timeline-item">
+
+            <div class="date">
+              2020 — 2023
+            </div>
+
+            <div>
+
+              <h3>
+                Apolytirion — High School Diploma
+              </h3>
+
+              <p class="institution">
+                Lykeio Kykkou A · Nicosia, Cyprus
+              </p>
+
+              <p>
+                Final grade: 19.56/20.
+              </p>
+
+              <p>
+                Main subjects: Mathematics,
+                Physics, Biology, Chemistry,
+                and Greek.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS AND INTERESTS -->
+
+    <section class="section section-dark" id="skills">
+
+      <div class="wrap">
+
+        <p class="eyebrow">
+          04 / SKILLS & INTERESTS
+        </p>
+
+        <h2>
+          Tools for <em>discovery.</em>
+        </h2>
+
+        <div class="skills-grid">
+
+          <div>
+
+            <h3>Research & software</h3>
+
+            <p>
+              R · Python · ChimeraX · Coot ·
+              CryoSPARC · VMD · Proteus ·
+              SciDAVis · Ontotext Refine ·
+              LaTeX · Microsoft Office
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>Languages</h3>
+
+            <p>
+              Greek — Native<br>
+              English — C1 (IELTS 7.5)<br>
+              French — B2 (TCF 400)
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>Beyond the lab</h3>
+
+            <p>
+              Piano (ABRSM Grade 8, Distinction) ·
+              Ballet (RAD Grade 5, Merit) ·
+              Dance · Crochet · Knitting ·
+              Sewing · Climbing · Swimming
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>Recognition & exploration</h3>
+
+            <p>
+              Pancyprian Mathematical Contest
+              and Biology Olympiad participant.
+              CERN Physics MasterClass at the
+              University of Cyprus (2023),
+              analysing CMS proton–proton
+              collision data.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="section contact-section" id="contact">
+
+      <div class="wrap contact-wrap">
+
+        <p class="eyebrow dark">
+          05 / CONTACT
+        </p>
+
+        <h2>
+          <em>Contact.</em>
+        </h2>
+
+        <p>
+          For academic enquiries, research opportunities,
+          and scientific collaborations, please feel
+          free to contact me.
+        </p>
+
+        <a class="btn btn-primary"
+           href="mailto:antriana.sofroniou@polytechnique.edu">
+          Get in touch ↗
+        </a>
+
+        <div class="contact-details">
+
+          <a href="mailto:antriana.sofroniou@polytechnique.edu">
+            antriana.sofroniou@polytechnique.edu
+          </a>
+
+          <a href="mailto:andrianasofroniou123@gmail.com">
+            andrianasofroniou123@gmail.com
+          </a>
+
+          <a href="tel:+33744404111">
+            +33 (0) 7 44 40 41 11
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
-  <footer><div class="wrap footer-wrap"><span>© <span id="year">2026</span> Antriana Sofroniou</span><a href="#top">Back to top ↑</a></div></footer>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="wrap footer-wrap">
+
+      <span>
+        © <span id="year">2026</span>
+        Antriana Sofroniou
+      </span>
+
+      <a href="#top">
+        Back to top ↑
+      </a>
+
+    </div>
+
+  </footer>
+
 </body>
 </html>
