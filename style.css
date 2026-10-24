@@ -83,51 +83,33 @@
   color: #b4d9c3 !important;
 }
 
-/* Research reports */
 
-.reports-list {
-  margin-top: 35px;
-  border-top: 1px solid #d5dfd5;
-}
+/* Report links inside project cards */
 
-.report-link {
+.project-meta-actions {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 24px;
-  padding: 22px 4px;
-  border-bottom: 1px solid #d5dfd5;
-  color: #102b31;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.project-meta .report-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #9fbab0;
+  border-radius: 20px;
+  color: #245a47;
+  font-size: 0.75rem;
+  font-weight: 600;
   text-decoration: none;
-  transition: background-color 0.2s ease;
+  white-space: nowrap;
+  transition: all 0.2s ease;
 }
 
-.report-link:hover {
-  background-color: #e8eee7;
-}
-
-.report-link strong {
-  display: block;
-  font-size: 16px;
-  margin-bottom: 3px;
-}
-
-.report-link small {
-  display: block;
-  color: #61757a;
-}
-
-.report-link > span:last-child {
-  flex-shrink: 0;
-  color: #477965;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-@media (max-width: 600px) {
-  .report-link {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 8px;
-  }
+.project-meta .report-button:hover {
+  background: #102b31;
+  border-color: #102b31;
+  color: #ffffff;
 }
